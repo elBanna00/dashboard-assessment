@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "styles/variables";
+
+body {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+}
+
+.header,
+.footer {
+  border-bottom: 1px solid $border-color;
+}
+
+.secondary-text {
+  color: $secondary-text-color;
+}
+
+.button {
+  background-color: $accent-color;
+  color: $primary-text-color;
+}

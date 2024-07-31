@@ -1,0 +1,43 @@
+$header-background-color: #000000;
+$header-text-color: #ffffff;
+
+$header-link-hover-color: #0070f3;
+
+.header {
+  background-color: $header-background-color;
+  color: $header-text-color;
+  padding: 20px 20px;
+
+  border-bottom: 1px solid #eaeaea;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: $header-text-color;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon:hover {
+  color: $header-link-hover-color;
+}
